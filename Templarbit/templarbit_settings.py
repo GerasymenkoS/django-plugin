@@ -1,0 +1,4 @@
+TEMPLARBIT_PROPERTY_ID = ''
+TEMPLARBIT_API_TOKEN = ''
+TEMPLARBIT_FETCH_INTERVAL = 5  # in seconds
+TEMPLARBIT_API_URL = 'https://api.templarbit.com/v1'
