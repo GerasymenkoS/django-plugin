@@ -10,3 +10,5 @@
 #Usage:
 1) Add Templarbit middleware package to Django's MIDDLEWARE list
 2) Set up settings in templarbit_settings.py
+
+[![Build Status](https://travis-ci.org/templarbit/django-plugin.svg?branch=master)](https://travis-ci.org/templarbit/django-plugin)
