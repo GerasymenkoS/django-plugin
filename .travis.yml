@@ -1,0 +1,11 @@
+language: python
+python:
+  - "3.5"
+install: "pip install -r requirements.txt"
+script: make test
+
+deploy:
+  provider: pypi
+  user: "templarbit"
+  password:
+    secure: "QuhjPnQ6VJYkuSukzxspyQABgkP2P9pkJywVNxyVDVpJ2WQcRAn6YSEKB7wpDpR7NRVPHM/ZlC5MUeKEztHt88NPtwkd7mvn5I+aQDHWXeo1pxoTjiA7Ek7FZJjf+Y5FbE5qm9pwrlSXbJFDCJ0JFPxaDjo97VduYt3cnzB4I+d9kX+96+CHS4pdzxG4C+bWDaYu659kKTKwzxQDYq9O3nWYz5wM7XtLGvXtmmZhLjlLs9VfZbefmAlOojCzHBjddZP/fO9p3b4EMq7OUvY4eBJHmE2Oj/Ub0GtPbNTzm4M9dYWqmL2X9amduYwbQmfFQ+hEywYT8IjxAwtnNnVSHFtVGq9oflnaiXeFuxHXaMgb6l4sdvAEbeP+ragYSXPAMWflv81jGd43NQHM8HWKj+mJDGsTNVnf0KdkQ6PUQKJIwysceTmlmylHWmDr+6ewViJT5Wj232PQ61dm03xygxB0p1iCvITHfhFuzMId5+4/kRcDskkc8ESPru+wm9xUQcIZOi/vvYNJC9sJP8myuPKNFBBOO4fczViuVMW4Oub29X5x1h7BFP4MSJuOCjAjoECwuwgu/e4Vo9cKglQUlWor88/3B3UZTMiTGczeObbchfZBFgNr3J4eCeANv7SFZIb37gfmR/AmNI8bIwt6ZJHIzx/dyBsJYJcVDarwQMU="
